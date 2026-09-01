@@ -1,0 +1,20 @@
+public class String05_회문 {
+	public static void main(String[] args) {
+		String[] words = { "level", "racecar", "기러기", "토마토", "hello" };
+		
+		for(String word : words) {
+			System.out.println(reverseFor(word));
+		}
+	}
+	
+	// 뒤에서부터 읽어오자
+	public static String reverseFor(String str) {
+		String tmp = "";
+		for(int i = str.length()-1; i >= 0; i--) {
+			tmp += str.charAt(i);
+		}
+		
+		return null;
+	}
+ 
+}

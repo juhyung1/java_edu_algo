@@ -1,0 +1,97 @@
+/**
+ * 고정 길이 배열로 스택을 직접 구현하는 예제이다.
+ *
+ * top의 의미를 "마지막으로 저장된 원소의 인덱스"로 정한다. - 공백 스택: top == -1 - push: top을 먼저 1 증가시킨
+ * 뒤 값을 저장 - pop: top 위치의 값을 꺼낸 뒤 top을 1 감소
+ *
+ * 장점: 구현이 단순하고 모든 기본 연산이 O(1)이다. 단점: 배열의 크기가 고정되어 있으므로 가득 차면 더 넣을 수 없다.
+ */
+// 문자열을 담을 수 있는 스택이야!
+class MyArrayStack {
+	private String[] stack = new String[100];
+	private int top = -1;
+
+	// 1. 스택에 값을 넣는다
+	// 잘못된 경우에는 예외를 던지겠다.
+	void push(String item) {
+		// 배열을 이용한 구현이기 때문에 포화 상태를 고려해야한다
+//		if (top == stack.length - 1) {
+		if(isFull()) {
+			System.out.println("배열이 포화상태입니다");
+			return;
+		}
+//		stack[top+1] = item;
+//		top += 1;
+		
+		stack[++top] = item;
+	}
+	
+	// 꺼내기 삭제 연산
+	String pop() {
+		if(isEmpty()) {
+			System.out.println("공백 상태라서 더이상 꺼낼것이 없다");
+			return null; // 예외처리	
+		}
+		
+//		String result = stack[top];
+//		stack[top] = null;
+//		top--;
+//		
+//		return result;
+		
+		return stack[top--];		
+	}
+	
+	// 삭제를 하진 않고 데이터를 반환만 한다
+	String peek() {
+		if(isEmpty()) {
+			return null;
+		}
+		return stack[top];
+	}
+	
+	int size() {
+		return top + 1;
+	}
+	
+		
+
+//	boolean isFll() {
+//		if (top == stack.length - 1) {
+//			return true;
+//		} else {
+//			return false;
+//		}
+//	}
+//
+//}
+
+	boolean isFull() {
+		if (top == stack.length - 1) {
+			return true;
+		} 
+		return false;		
+	}
+	
+	boolean isEmpty() {
+		return top == -1;		
+	}
+	
+	
+}
+
+public class Stack01_Array구현 {
+	public static void main(String[] args) {
+		MyArrayStack stack = new MyArrayStack();
+		
+		stack.push("A");
+		stack.push("B");
+		stack.push("C");
+		stack.push("D");
+
+		System.out.println(stack.pop());
+		System.out.println(stack.pop());
+		System.out.println(stack.pop());
+		System.out.println(stack.pop());
+	}
+}

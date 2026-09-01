@@ -1,0 +1,17 @@
+public class String01_문자표현 {
+	public static void main(String[] args) {
+		// char 2byte (기본 자료형) / Character(참조 자료형)
+		char ch = 'A';
+		System.out.println(ch);
+		int i = ch;
+		System.out.println(i);
+		
+		System.out.println(ch+1); // 'B' 를 기대했지만 정수형으로 형변환
+		
+		System.out.println((char)(ch+1));
+		
+		
+		char ch2 = 'A' + 1;
+		System.out.println(ch2);
+	}
+}

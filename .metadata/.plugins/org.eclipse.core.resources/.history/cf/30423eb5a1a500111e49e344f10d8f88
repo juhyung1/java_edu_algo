@@ -1,0 +1,7 @@
+public class String05_회문 {
+	public static void main(String[] args) {
+		String[] words = { "level", "racecar", "기러기", "토마토", "hello" };
+
+	}
+
+}

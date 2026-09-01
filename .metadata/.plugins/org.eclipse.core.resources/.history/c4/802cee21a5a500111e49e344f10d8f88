@@ -1,0 +1,14 @@
+public class String06_정수변환 {
+	public static void main(String[] args) {
+	}
+
+	// atoi: 문자열 -> 정수
+	public static int atoi(String strNumber) {
+		return 0;
+	}
+
+	// itoa: 정수 -> 문자열
+	public static String itoa(int number) {
+		return null;
+	}
+}

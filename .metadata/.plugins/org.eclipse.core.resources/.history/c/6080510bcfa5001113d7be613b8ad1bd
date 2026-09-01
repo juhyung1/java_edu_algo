@@ -1,0 +1,17 @@
+/**
+ * 팩토리얼을 재귀적으로 계산하는 예제이다.
+ *
+ * n! = n * (n - 1)!이라는 관계를 이용해 같은 모양의 더 작은 문제로 줄인다.
+ * 0!과 1!은 1이므로 재귀 호출의 Base case가 된다.
+ *
+ * 시간 복잡도: n부터 1까지 한 번씩 호출하므로 O(N)
+ * 공간 복잡도: 호출 스택에 최대 N개의 프레임이 쌓이므로 O(N)
+ */
+public class Stack07_팩토리얼 {
+	public static void main(String[] args) {
+	}
+
+	public static long factorial(int n) {
+		return 0;
+	}
+}

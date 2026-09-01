@@ -1,0 +1,9 @@
+public class Array10_델타이동 {
+	public static void main(String[] args) {
+		int[][] map = {
+				{ 1, 2, 3, 4 },
+				{ 5, 6, 7, 8 },
+				{ 9, 10, 11, 12 }
+		};
+	}
+}

@@ -1,0 +1,53 @@
+import java.util.Stack;
+
+/**
+ * java.util.Stack의 주요 연산을 확인하는 예제이다.
+ *
+ * 스택은 마지막에 넣은 원소를 가장 먼저 꺼내는 LIFO(Last-In First-Out)
+ * 자료구조이다. push, pop, peek는 모두 스택의 맨 위(top)에서 동작한다.
+ *
+ * 시간 복잡도: push, pop, peek, isEmpty, size는 일반적으로 O(1)
+ * 주의할 점: 비어 있는 스택에서 pop 또는 peek를 호출하면 예외가 발생한다.
+ */
+public class Stack02_API {
+	public static void main(String[] args) {
+		// 제네릭의 자료형에는 int가 아니라 래퍼 클래스인 Integer를 사용한다.
+		Stack<Integer> stack = new Stack<>();
+
+		// push(item): 스택의 맨 위에 원소를 추가한다.
+		stack.push(10);
+		stack.push(20);
+		stack.push(30);
+
+		// peek(): 맨 위 원소를 확인만 한다. 원소는 삭제되지 않는다.
+		System.out.println(stack.peek());
+		System.out.println(stack.size());
+
+		// pop(): 맨 위 원소를 꺼내 반환하며, 스택에서는 삭제한다.
+		System.out.println(stack.pop());
+		System.out.println(stack.size());
+
+		// size(): 현재 저장된 원소의 수
+		
+		// isEmpty(): 스택이 비었는지 확인
+		System.out.println(stack.isEmpty());
+		
+		
+		
+		for(int i = 0; i < stack.size(); i++) {
+			stack.pop();
+		}
+		
+		System.out.println(stack.isEmpty());
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+}
