@@ -25,6 +25,29 @@ public class Stack09_하노이탑 {
 	 * @param to   도착 기둥
 	 */
 	public static void hanoi(int n, char from, char via, char to) {
+		if (n <= 0) {
+			throw new IllegalArgumentException("원판 수는 1 이상이어야 합니다.");
+		}
+
+		// Base case: 원판이 하나라면 출발 기둥에서 도착 기둥으로 바로 이동
+		if (n == 1) {
+			move(n, from, to);
+			return;
+		}
+
+		// 1. 위쪽 n-1개를 보조 기둥으로 이동
+		hanoi(n - 1, from, to, via);
+
+		// 2. 가장 큰 n번 원판을 도착 기둥으로 이동
+		move(n, from, to);
+
+		// 3. 보조 기둥에 있는 n-1개를 도착 기둥으로 이동
+		hanoi(n - 1, via, from, to);
+	}
+
+	private static void move(int disk, char from, char to) {
+		moveCount++;
+		System.out.printf("원판 %d: %c -> %c%n", disk, from, to);
 	}
 }
 
