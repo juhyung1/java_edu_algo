@@ -38,9 +38,9 @@ public class LinkedList06_이중연결리스트 {
 			return 0;
 		}
 		
-		DNode get(int index) {
-			
-		}
+//		DNode get(int index) {
+//			
+//		}
 
 	}
 	public static void main(String[] args) {
