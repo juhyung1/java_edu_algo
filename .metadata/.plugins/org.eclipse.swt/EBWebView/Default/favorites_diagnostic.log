@@ -332,3 +332,23 @@
 2026-09-04 02:00:16.862: [INFO] BookmarksLoadDropped droppedNodes=0
 2026-09-04 02:00:16.862: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
 2026-09-04 02:22:39.109: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-07 01:32:42.041: [INFO] CurrentProfilePath: C:\Users\SSAFY\Desktop\java_algorism\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-07 01:32:42.041: [INFO] Profiles total count: 1
+2026-09-07 01:32:42.041: [INFO] Profile: name=프로필 1 path=C:\Users\SSAFY\Desktop\java_algorism\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-09-04T01:59:47.149Z
+2026-09-07 01:32:42.041: [INFO] LastUsedProfileDir: C:\Users\SSAFY\Desktop\java_algorism\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-07 01:32:42.041: [INFO] MostRecentlyActiveProfile: name=프로필 1 path=C:\Users\SSAFY\Desktop\java_algorism\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-09-04T01:59:47.149Z
+2026-09-07 01:32:42.041: [INFO] OnDoneLoading sync enabled: 0
+2026-09-07 01:32:42.041: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-07 01:32:42.041: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-07 01:32:42.041: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-07 01:36:45.340: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-07 01:47:52.758: [INFO] CurrentProfilePath: C:\Users\SSAFY\Desktop\java_algorism\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-07 01:47:52.758: [INFO] Profiles total count: 1
+2026-09-07 01:47:52.758: [INFO] Profile: name=프로필 1 path=C:\Users\SSAFY\Desktop\java_algorism\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-09-04T01:59:47.149Z
+2026-09-07 01:47:52.758: [INFO] LastUsedProfileDir: C:\Users\SSAFY\Desktop\java_algorism\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-07 01:47:52.758: [INFO] MostRecentlyActiveProfile: name=프로필 1 path=C:\Users\SSAFY\Desktop\java_algorism\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-09-04T01:59:47.149Z
+2026-09-07 01:47:52.758: [INFO] OnDoneLoading sync enabled: 0
+2026-09-07 01:47:52.758: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-07 01:47:52.758: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-07 01:47:52.758: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-07 02:07:24.870: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
