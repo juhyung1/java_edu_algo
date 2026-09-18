@@ -531,3 +531,13 @@
 2026-09-17 01:20:58.309: [INFO] BookmarksLoadDropped droppedNodes=0
 2026-09-17 01:20:58.309: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
 2026-09-17 02:18:36.966: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-18 00:42:20.756: [INFO] CurrentProfilePath: C:\Users\SSAFY\Desktop\java_edu_algo\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-18 00:42:20.756: [INFO] Profiles total count: 1
+2026-09-18 00:42:20.756: [INFO] Profile: name=프로필 1 path=C:\Users\SSAFY\Desktop\java_edu_algo\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-09-04T01:59:47.149Z
+2026-09-18 00:42:20.756: [INFO] LastUsedProfileDir: C:\Users\SSAFY\Desktop\java_edu_algo\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-18 00:42:20.756: [INFO] MostRecentlyActiveProfile: name=프로필 1 path=C:\Users\SSAFY\Desktop\java_edu_algo\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-09-04T01:59:47.149Z
+2026-09-18 00:42:20.756: [INFO] OnDoneLoading sync enabled: 0
+2026-09-18 00:42:20.756: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-18 00:42:20.756: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-18 00:42:20.756: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-18 00:42:22.075: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
